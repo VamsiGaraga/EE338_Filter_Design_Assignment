@@ -1,0 +1,744 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.30)  12 NOV 2020 12:10
+entering extended mode
+**"./Filter Design Assignment.tex"
+("Filter Design Assignment.tex"
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen141
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip16
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks17
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption.
+sty"
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+"
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y"
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count195
+\c@continuedfloat=\count196
+)
+\c@subfigure=\count197
+\c@subtable=\count198
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.s
+ty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count199
+\multirow@dima=\skip53
+\bigstrutjot=\dimen157
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count266
+\float@exts=\toks21
+\float@box=\box49
+\@float@everytoks=\toks22
+\@floatcapt=\box50
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.s
+ty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.s
+ty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip54
+\enit@outerparindent=\dimen158
+\enit@toks=\toks23
+\enit@inbox=\box51
+\enit@count@id=\count267
+\enitdp@description=\count268
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
+"
+Package: babel 2020/10/06 3.50 The Babel package
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count269
+\U@D=\dimen159
+\l@babelnohyphens=\language79
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
+f")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count270
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engli
+sh.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
+ty"
+\lst@mode=\count271
+\lst@gtempboxa=\box52
+\lst@token=\toks26
+\lst@length=\count272
+\lst@currlwidth=\dimen160
+\lst@column=\count273
+\lst@pos=\count274
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count275
+\lst@lineno=\count276
+\lst@maxwidth=\dimen163
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
+y"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count277
+\lst@skipnumbers=\count278
+\lst@framebox=\box53
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
+fg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks27
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg"))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\x
+parse.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-10-05 L3 programming layer (loader) 
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
+-pdftex.def"
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count282
+\l__pdf_internal_box=\box54
+))
+Package: xparse 2020-10-05 L3 Experimental document command parser
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\x
+parse-generic.tex")) ("Filter Design Assignment.aux")
+\openout1 = `"Filter Design Assignment.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count283
+\scratchdimen=\dimen172
+\scratchbox=\box55
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen173
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks29
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
+df-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count289
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69684pt
+* \textheight=731.23582pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("Filter Design Assignment.toc" [2])
+\tf@toc=\write3
+\openout3 = `"Filter Design Assignment.toc"'.
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+[2] [3]
+<Butterworthpoles.png, id=29, 395.076pt x 358.03763pt>
+File: Butterworthpoles.png Graphic file (type png)
+<use Butterworthpoles.png>
+Package pdftex.def Info: Butterworthpoles.png  used on input line 223.
+(pdftex.def)             Requested size: 142.26378pt x 128.92622pt.
+
+Overfull \hbox (2.58258pt too wide) detected at line 243
+[]
+ []
+
+<Filter1ALPF.jpg, id=31, 1405.25pt x 1053.9375pt>
+File: Filter1ALPF.jpg Graphic file (type jpg)
+<use Filter1ALPF.jpg>
+Package pdftex.def Info: Filter1ALPF.jpg  used on input line 246.
+(pdftex.def)             Requested size: 341.43306pt x 256.07002pt.
+[4 <./Butterworthpoles.png>]
+<Filter1ABPF.jpg, id=39, 1405.25pt x 1053.9375pt>
+File: Filter1ABPF.jpg Graphic file (type jpg)
+<use Filter1ABPF.jpg>
+Package pdftex.def Info: Filter1ABPF.jpg  used on input line 299.
+(pdftex.def)             Requested size: 341.43306pt x 256.07002pt.
+ [5 <./Filter1ALPF.jpg>]
+<Filter1PZ.jpg, id=44, 3212.0pt x 1366.10374pt>
+File: Filter1PZ.jpg Graphic file (type jpg)
+<use Filter1PZ.jpg>
+Package pdftex.def Info: Filter1PZ.jpg  used on input line 370.
+(pdftex.def)             Requested size: 455.24408pt x 193.6087pt.
+ [6 <./Filter1ABPF.jpg>]
+<Filter1MagPhase.jpg, id=48, 3212.0pt x 1366.10374pt>
+File: Filter1MagPhase.jpg Graphic file (type jpg)
+<use Filter1MagPhase.jpg>
+Package pdftex.def Info: Filter1MagPhase.jpg  used on input line 375.
+(pdftex.def)             Requested size: 455.2152pt x 284.51392pt.
+<Filter1DBPF.png, id=49, 3212.0pt x 1533.73pt>
+File: Filter1DBPF.png Graphic file (type png)
+<use Filter1DBPF.png>
+Package pdftex.def Info: Filter1DBPF.png  used on input line 379.
+(pdftex.def)             Requested size: 455.2152pt x 284.5079pt.
+
+[7 <./Filter1PZ.jpg> <./Filter1MagPhase.jpg>]
+<Filter1hn.png, id=53, 736.25063pt x 331.53862pt>
+File: Filter1hn.png Graphic file (type png)
+<use Filter1hn.png>
+Package pdftex.def Info: Filter1hn.png  used on input line 397.
+(pdftex.def)             Requested size: 512.1496pt x 230.63873pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 397--398
+ [][] 
+ []
+
+[8 <./Filter1DBPF.png>]
+<FIRFilter1hn.png, id=57, 2409.0pt x 1024.57782pt>
+File: FIRFilter1hn.png Graphic file (type png)
+<use FIRFilter1hn.png>
+Package pdftex.def Info: FIRFilter1hn.png  used on input line 404.
+(pdftex.def)             Requested size: 512.1496pt x 217.82542pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 404--405
+ [][] 
+ []
+
+<FIRFilter1MagPhase.png, id=58, 2409.0pt x 1024.57782pt>
+File: FIRFilter1MagPhase.png Graphic file (type png)
+<use FIRFilter1MagPhase.png>
+Package pdftex.def Info: FIRFilter1MagPhase.png  used on input line 408.
+(pdftex.def)             Requested size: 512.15385pt x 284.51913pt.
+
+Overfull \hbox (28.45702pt too wide) in paragraph at lines 408--409
+ [][] 
+ []
+
+<FIRFilter1UBPF.png, id=59, 2409.0pt x 1150.2975pt>
+File: FIRFilter1UBPF.png Graphic file (type png)
+<use FIRFilter1UBPF.png>
+Package pdftex.def Info: FIRFilter1UBPF.png  used on input line 412.
+(pdftex.def)             Requested size: 512.1496pt x 244.55347pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 412--413
+ [][] 
+ []
+
+[9 <./Filter1hn.png> <./FIRFilter1hn.png (PNG copy)>] [10 <./FIRFilter1MagPhase
+.png (PNG copy)> <./FIRFilter1UBPF.png (PNG copy)>] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
+
+ []
+
+[13]
+<Chebyshevpoles.png, id=77, 328.8285pt x 345.6915pt>
+File: Chebyshevpoles.png Graphic file (type png)
+<use Chebyshevpoles.png>
+Package pdftex.def Info: Chebyshevpoles.png  used on input line 591.
+(pdftex.def)             Requested size: 170.72086pt x 142.2619pt.
+ [14]
+<Filter2ALPF.jpg, id=81, 1405.25pt x 1053.9375pt>
+File: Filter2ALPF.jpg Graphic file (type jpg)
+<use Filter2ALPF.jpg>
+Package pdftex.def Info: Filter2ALPF.jpg  used on input line 613.
+(pdftex.def)             Requested size: 341.43306pt x 256.07002pt.
+ [15 <./Chebyshevpoles.png> <./Filter2ALPF.jpg>]
+<Filter2ABSF.jpg, id=86, 1405.25pt x 1053.9375pt>
+File: Filter2ABSF.jpg Graphic file (type jpg)
+<use Filter2ABSF.jpg>
+Package pdftex.def Info: Filter2ABSF.jpg  used on input line 634.
+(pdftex.def)             Requested size: 341.43306pt x 266.87698pt.
+
+Overfull \hbox (14.96439pt too wide) detected at line 647
+[]
+ []
+
+<Filter2PZ.jpg, id=88, 3212.0pt x 1366.10374pt>
+File: Filter2PZ.jpg Graphic file (type jpg)
+<use Filter2PZ.jpg>
+Package pdftex.def Info: Filter2PZ.jpg  used on input line 650.
+(pdftex.def)             Requested size: 512.1496pt x 217.8098pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 650--651
+ [][] 
+ []
+
+[16 <./Filter2ABSF.jpg>]
+<Filter2MagPhase.jpg, id=94, 3212.0pt x 1366.10374pt>
+File: Filter2MagPhase.jpg Graphic file (type jpg)
+<use Filter2MagPhase.jpg>
+Package pdftex.def Info: Filter2MagPhase.jpg  used on input line 655.
+(pdftex.def)             Requested size: 512.1171pt x 284.51392pt.
+
+Overfull \hbox (28.42026pt too wide) in paragraph at lines 655--656
+ [][] 
+ []
+
+<Filter2DBSF.jpg, id=95, 3212.0pt x 1533.73pt>
+File: Filter2DBSF.jpg Graphic file (type jpg)
+<use Filter2DBSF.jpg>
+Package pdftex.def Info: Filter2DBSF.jpg  used on input line 659.
+(pdftex.def)             Requested size: 512.1496pt x 244.5359pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 659--660
+ [][] 
+ []
+
+[17 <./Filter2PZ.jpg> <./Filter2MagPhase.jpg>]
+<Filter2hn.png, id=100, 692.28638pt x 286.97212pt>
+File: Filter2hn.png Graphic file (type png)
+<use Filter2hn.png>
+Package pdftex.def Info: Filter2hn.png  used on input line 677.
+(pdftex.def)             Requested size: 512.1496pt x 212.30786pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 677--678
+ [][] 
+ []
+
+[18 <./Filter2DBSF.jpg>]
+<FIRFilter2hn.png, id=105, 2409.0pt x 1024.57782pt>
+File: FIRFilter2hn.png Graphic file (type png)
+<use FIRFilter2hn.png>
+Package pdftex.def Info: FIRFilter2hn.png  used on input line 684.
+(pdftex.def)             Requested size: 512.1496pt x 217.82542pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 684--685
+ [][] 
+ []
+
+<FIRFilter2MagPhase.png, id=106, 2409.0pt x 1024.57782pt>
+File: FIRFilter2MagPhase.png Graphic file (type png)
+<use FIRFilter2MagPhase.png>
+Package pdftex.def Info: FIRFilter2MagPhase.png  used on input line 688.
+(pdftex.def)             Requested size: 512.15385pt x 284.51913pt.
+
+Overfull \hbox (28.45702pt too wide) in paragraph at lines 688--689
+ [][] 
+ []
+
+<FIRFilter2UBSF.png, id=107, 2409.0pt x 1150.2975pt>
+File: FIRFilter2UBSF.png Graphic file (type png)
+<use FIRFilter2UBSF.png>
+Package pdftex.def Info: FIRFilter2UBSF.png  used on input line 692.
+(pdftex.def)             Requested size: 512.1496pt x 244.55347pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 692--693
+ [][] 
+ []
+
+[19 <./Filter2hn.png> <./FIRFilter2hn.png (PNG copy)>] [20 <./FIRFilter2MagPhas
+e.png (PNG copy)> <./FIRFilter2UBSF.png (PNG copy)>] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 731--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 768--770
+
+ []
+
+[23] [24] [25]
+<Filter3ALPF.jpg, id=131, 3212.0pt x 1533.73pt>
+File: Filter3ALPF.jpg Graphic file (type jpg)
+<use Filter3ALPF.jpg>
+Package pdftex.def Info: Filter3ALPF.jpg  used on input line 928.
+(pdftex.def)             Requested size: 512.1496pt x 244.5359pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 928--929
+ [][] 
+ []
+
+[26 <./Filter3ALPF.jpg>]
+<Filter3ABPF.jpg, id=135, 3212.0pt x 1533.73pt>
+File: Filter3ABPF.jpg Graphic file (type jpg)
+<use Filter3ABPF.jpg>
+Package pdftex.def Info: Filter3ABPF.jpg  used on input line 949.
+(pdftex.def)             Requested size: 512.1496pt x 248.95905pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 949--950
+ [][] 
+ []
+
+<Filter3PZ.jpg, id=137, 3212.0pt x 1366.10374pt>
+File: Filter3PZ.jpg Graphic file (type jpg)
+<use Filter3PZ.jpg>
+Package pdftex.def Info: Filter3PZ.jpg  used on input line 967.
+(pdftex.def)             Requested size: 512.1496pt x 217.8098pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 967--968
+ [][] 
+ []
+
+[27 <./Filter3ABPF.jpg>]
+<Filter3MagPhase.jpg, id=142, 3212.0pt x 1366.10374pt>
+File: Filter3MagPhase.jpg Graphic file (type jpg)
+<use Filter3MagPhase.jpg>
+Package pdftex.def Info: Filter3MagPhase.jpg  used on input line 972.
+(pdftex.def)             Requested size: 512.1171pt x 284.51392pt.
+
+Overfull \hbox (28.42026pt too wide) in paragraph at lines 972--973
+ [][] 
+ []
+
+<Filter3DBPF.jpg, id=143, 3212.0pt x 1533.73pt>
+File: Filter3DBPF.jpg Graphic file (type jpg)
+<use Filter3DBPF.jpg>
+Package pdftex.def Info: Filter3DBPF.jpg  used on input line 976.
+(pdftex.def)             Requested size: 512.1496pt x 244.5359pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 976--977
+ [][] 
+ []
+
+[28 <./Filter3PZ.jpg> <./Filter3MagPhase.jpg>] [29 <./Filter3DBPF.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1040
+
+ []
+
+[31] [32] [33]
+<Filter4ALPF.jpg, id=165, 3212.0pt x 1533.73pt>
+File: Filter4ALPF.jpg Graphic file (type jpg)
+<use Filter4ALPF.jpg>
+Package pdftex.def Info: Filter4ALPF.jpg  used on input line 1200.
+(pdftex.def)             Requested size: 512.1496pt x 244.5359pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 1200--1201
+ [][] 
+ []
+
+<Filter4ABSF.jpg, id=166, 3212.0pt x 1533.73pt>
+File: Filter4ABSF.jpg Graphic file (type jpg)
+<use Filter4ABSF.jpg>
+Package pdftex.def Info: Filter4ABSF.jpg  used on input line 1221.
+(pdftex.def)             Requested size: 455.24408pt x 221.29692pt.
+[34 <./Filter4ALPF.jpg>]
+<Filter4PZ.jpg, id=172, 3212.0pt x 1366.10374pt>
+File: Filter4PZ.jpg Graphic file (type jpg)
+<use Filter4PZ.jpg>
+Package pdftex.def Info: Filter4PZ.jpg  used on input line 1237.
+(pdftex.def)             Requested size: 512.1496pt x 217.8098pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 1237--1238
+ [][] 
+ []
+
+<Filter4MagPhase.jpg, id=173, 3212.0pt x 1366.10374pt>
+File: Filter4MagPhase.jpg Graphic file (type jpg)
+<use Filter4MagPhase.jpg>
+Package pdftex.def Info: Filter4MagPhase.jpg  used on input line 1241.
+(pdftex.def)             Requested size: 512.1171pt x 284.51392pt.
+
+Overfull \hbox (28.42026pt too wide) in paragraph at lines 1241--1242
+ [][] 
+ []
+
+<Filter4DBSF.jpg, id=174, 3212.0pt x 1533.73pt>
+File: Filter4DBSF.jpg Graphic file (type jpg)
+<use Filter4DBSF.jpg>
+Package pdftex.def Info: Filter4DBSF.jpg  used on input line 1245.
+(pdftex.def)             Requested size: 512.1496pt x 244.5359pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 1245--1246
+ [] 
+ []
+
+[35 <./Filter4ABSF.jpg> <./Filter4PZ.jpg>] [36 <./Filter4DBSF.jpg> <./Filter4Ma
+gPhase.jpg>] [37] ("Filter Design Assignment.aux") ) 
+Here is how much of TeX's memory you used:
+ 6915 strings out of 480237
+ 108073 string characters out of 2879120
+ 428304 words of memory out of 3000000
+ 23372 multiletter control sequences out of 15000+200000
+ 542194 words of font info for 54 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,74p,470b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\User\AppData\Loc
+al\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/User/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmtt12.pfb>
+Output written on "Filter Design Assignment.pdf" (40 pages, 4400616 bytes).
+PDF statistics:
+ 228 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+

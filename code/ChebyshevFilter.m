@@ -46,19 +46,23 @@ p4 = -sin(3*A0)*sinh(Bk)-1i*cos(3*A0)*cosh(Bk);
 
 p = [p1 p2 p3 p4];
 
-for k = 1:1:Nmin
-    msg = "p" + k + " = " + p(k);
-    %disp(msg);
-end
+%for k = 1:1:Nmin
+%   msg = "p" + k + " = " + p(k);
+%    disp(msg);
+%end
 
-[num,den] = zp2tf([], p, (p1*p2*p3*p4)/sqrt(1+D1)); %TF with poles p(1...4) and numerator (p1*p2*p3*p4)/sqrt(1+D1) and no zeroes
-                                                    % Numerator is chosen such that the DC gain in 1/sqrt(1+D1) as Nmin is even
+[num,den] = zp2tf([], p, (p1*p2*p3*p4)/sqrt(1+D1));
+%TF with poles p(1...4) and numerator (p1*p2*p3*p4)/sqrt(1+D1) and no zeroes
+% Numerator is chosen such that the DC gain in 1/sqrt(1+D1) as Nmin is even
 
 %% Tranforming back to Band-Stop transfer function and then discrete domain
 syms s z;
-analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s);        %analog LPF Transfer Function
-analog_bsf(s) = analog_lpf((B*s)/(s*s + w0*w0));        %bandstop transformation
-discrete_bsf(z) = analog_bsf((z-1)/(z+1));              %bilinear transformation
+%analog LPF Transfer Function
+analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s); 
+%bandstop transformation to analog BSF transfer function
+analog_bsf(s) = analog_lpf((B*s)/(s*s + w0*w0));        
+%bilinear transformation into dicrete BSF transfer function
+discrete_bsf(z) = analog_bsf((z-1)/(z+1));              
 
 %% coefficients of analog low-pass filter
 [nls, dls] = numden(analog_lpf(s));                  
@@ -69,18 +73,20 @@ dls = dls/k;
 nls = nls/k;
 
 %% coeffs of analog band stop filter
-[ns, ds] = numden(analog_bsf(s));                   %numerical simplification to collect coeffs
+[ns, ds] = numden(analog_bsf(s));               
+%numerical simplification to collect coeffs
 ns = sym2poly(expand(ns));                          
-ds = sym2poly(expand(ds));                          %collect coeffs into matrix form
+ds = sym2poly(expand(ds));                          
+%collect coeffs into matrix form
 k = ds(1);    
 ds = ds/k;
 ns = ns/k;
 
 %% coeffs of digital band stop filter
-[nz, dz] = numden(discrete_bsf(z));                     %numerical simplification to collect coeffs                    
+[nz, dz] = numden(discrete_bsf(z));                     
 nz = sym2poly(expand(nz));
-dz = sym2poly(expand(dz));                              %coeffs to matrix form
-k = dz(1);                                              %normalisation factor
+dz = sym2poly(expand(dz));                              
+k = dz(1);                                              
 dz = dz/k;
 nz = nz/k;
 

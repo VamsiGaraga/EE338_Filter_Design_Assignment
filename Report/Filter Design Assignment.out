@@ -1,0 +1,53 @@
+\BOOKMARK [1][-]{section.1}{Student Details:}{}% 1
+\BOOKMARK [1][-]{section.2}{Filter 1: Butterworth Band Pass Filter}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Unnormalized Specifications}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Normalized specifications}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Analog Band-pass Filter Specifications}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Frequency Transformation in to a Low Pass Filter}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Analog Low Pass Filter Specification}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{Analog Low Pass Transfer function}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.7}{Analog Band Pass Transfer function}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.8}{Discrete time Band Pass Transfer function}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.9}{FIR Filter Transfer Function using Kaiser window}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.10}{Comparison between FIR and IIR realizations}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Filter 2: Chebyshev Band Stop Filter}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Unnormalized Specifications}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Normalized specifications}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Analog Band-Stop Filter Specifications}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Frequency Transformation in to a Low Pass Filter}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Analog Low Pass Filter Specification}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Analog Low Pass Transfer function}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.7}{Analog Band Stop Transfer function}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.8}{Discrete time Band Stop Transfer function}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.9}{FIR Filter Transfer Function using Kaiser window}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.10}{Comparison between FIR and IIR realizations}{section.3}% 23
+\BOOKMARK [1][-]{section.4}{Filter 1: Elliptic Band Pass Filter}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Unnormalized Specifications}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Normalized specifications}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Analog Band-pass Filter Specifications}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.4}{Frequency Transformation in to a Low Pass Filter}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.5}{Analog Low Pass Filter Specifications}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.6}{Analog Low Pass Filter Transfer function}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.7}{Analog Band Pass Transfer function}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.8}{Discrete time Band Pass Transfer function}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{Filter 2: Elliptic Band Stop Filter}{}% 33
+\BOOKMARK [2][-]{subsection.5.1}{Unnormalized Specifications}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{Normalized specifications}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Analog Band-stop Filter Specifications}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.4}{Frequency Transformation in to a Low Pass Filter}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.5}{Analog Low Pass Filter Specification}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.6}{Analog Low Pass Filter Transfer function}{section.5}% 39
+\BOOKMARK [2][-]{subsection.5.7}{Analog Band Stop Transfer function}{section.5}% 40
+\BOOKMARK [2][-]{subsection.5.8}{Discrete time Band Stop Transfer function}{section.5}% 41
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 42
+\BOOKMARK [1][-]{section.7}{Review report}{}% 43
+\BOOKMARK [2][-]{subsubsection.7.0.1}{Detailed corrections and improvements done on the report}{section.7}% 44
+\BOOKMARK [3][-]{subsubsection.7.0.2}{Detailed review for group member's report}{subsubsection.7.0.1}% 45
+\BOOKMARK [1][-]{section.8}{Appendix}{}% 46
+\BOOKMARK [2][-]{subsection.8.1}{Butter-worth Band Pass filter}{section.8}% 47
+\BOOKMARK [2][-]{subsection.8.2}{Chebyshev Band Stop filter}{section.8}% 48
+\BOOKMARK [2][-]{subsection.8.3}{Code for Ideal LPF h[n] used for FIR filters}{section.8}% 49
+\BOOKMARK [2][-]{subsection.8.4}{FIR Band Pass}{section.8}% 50
+\BOOKMARK [2][-]{subsection.8.5}{FIR Band Stop}{section.8}% 51
+\BOOKMARK [2][-]{subsection.8.6}{Elliptic Band Pass}{section.8}% 52
+\BOOKMARK [2][-]{subsection.8.7}{Elliptic Band Stop}{section.8}% 53

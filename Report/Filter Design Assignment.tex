@@ -10,6 +10,7 @@
 \usepackage[english]{babel}
 \usepackage{listings}
 \usepackage{geometry}
+\usepackage{hyperref}
 \geometry{
 	a4paper,
 	total={170mm,257mm},
@@ -20,12 +21,31 @@
 \definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
 \definecolor{brightgreen}{rgb}{0.4, 1.0, 0.0}
 \definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
 
 \usepackage{xparse}% http://ctan.org/pkg/xparse
 \NewDocumentCommand{\ceil}{s O{} m}{%
 	\IfBooleanTF{#1} % starred
 	{\left\lceil#3\right\rceil} % \ceil*[..]{..}
 	{#2\lceil#3#2\rceil} % \ceil[..]{..}
+}
+
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
 
 \title{ \color{darkblue}  \textbf{EE338 : Digital Signal Processing \\
@@ -73,7 +93,7 @@ Filter Design Assignment}}
 		\item Butterworth Approximation
 		\item Band-Pass filter.
 		\item The Transition band is 4kHz on either side of the pass band
-		\item The input signal is Band limitted to 160kHz and the sampling rate is 330kHz.
+		\item The input signal is Band limited to 160kHz and the sampling rate is 330kHz.
 	\end{itemize}
 	\color{cyan}
 	\subsection{Unnormalized Specifications}
@@ -420,17 +440,7 @@ Filter Design Assignment}}
 		\item The number of delay lines required for IIR filter is 8+16 = 24, where as for FIR filter we need 68 delay lines.  Hence it is very evident that for the same Filter specifications the FIR filters need a lot more hardware. 
 	\end{itemize}
 	
-	\color{cyan}
-	\subsection{Review report}
-	\color{black}
-	Reviewed Shubham Kar's report
-	\begin{itemize}
-		\item Specifications were correctly chosen.
-		\item All the frequency response specifications are met. We can see this clearly as he marked the critical points on the plots.
-		\item All the mandatory parts are done. Although there were some typo's which were corrected.
-		
-	\end{itemize}
-	
+
 	  
 	
 	
@@ -446,7 +456,7 @@ Filter Design Assignment}}
 		\item Band-stop Filter
 		\item Chebyshev Approximation
 		\item The Transition band is 4kHz on either side of the stop band
-		\item The input signal is Band limitted to 120kHz and the sampling rate is 260kHz.
+		\item The input signal is Band limited to 120kHz and the sampling rate is 260kHz.
 	\end{itemize}
 	\color{cyan}
 	\subsection{Unnormalized Specifications}
@@ -700,17 +710,7 @@ We know the an Ideal Band Stop filter can be written as linear combination of th
 	\item The number of delay lines required for IIR filter is 8+8 = 16, where as for FIR filter we need 54 delay lines.  Hence it is very evident that for the same Filter specifications the FIR filters need a lot more hardware. 
 \end{itemize}
 
-\color{cyan}
-\subsection{Review report}
-\color{black}
-Reviewed Shubham Kar's report
-\begin{itemize}
-	\item Specifications we correctly chosen but the formula written BL(m) was incorrect (but the final value was correct) and was now modified.
-	\item All the frequency response specifications are met. We can see this clearly as he marked the critical points on the plots.
-	\item All the mandatory parts are done. Although there were some typo's which were corrected.
-\end{itemize}
 \newpage
-
 \color{darkblue}
 \noindent\textbf{\Large{Part2: Elliptic Filters}}
 \section{Filter 1: Elliptic Band Pass Filter}
@@ -723,7 +723,7 @@ Since all the specification except the Stop band and Pass Band Nature are same, 
 	\item Elliptic / Jacobi Approximation
 	\item Band-Pass filter.
 	\item The Transition band is 4kHz on either side of the pass band
-	\item The input signal is Band limitted to 160kHz and the sampling rate is 330kHz.
+	\item The input signal is Band limited to 160kHz and the sampling rate is 330kHz.
 \end{itemize}
 \color{cyan}
 \subsection{Unnormalized Specifications}
@@ -976,10 +976,7 @@ Substituting this back into $H_{Analog,BPF}(s)$, we get $H_{digital,BPF}$ as
 	\includegraphics[width = 18cm, trim=0cm 0cm 0cm 0cm, clip]{Filter3DBPF.jpg}
 \end{figure}
 
-\color{cyan}
-\subsection{Review report}
-\color{black}
-\newpage
+
 
 \color{darkblue}
 \section{Filter 2: Elliptic Band Stop Filter}
@@ -992,7 +989,7 @@ Substituting this back into $H_{Analog,BPF}(s)$, we get $H_{digital,BPF}$ as
 	\item Elliptic / Jacobi Approximation
 	\item Band-stop Filter
 	\item The Transition band is 4kHz on either side of the stop band
-	\item The input signal is Band limitted to 120kHz and the sampling rate is 260kHz.
+	\item The input signal is Band limited to 120kHz and the sampling rate is 260kHz.
 \end{itemize}
 \color{cyan}
 \subsection{Unnormalized Specifications}
@@ -1245,19 +1242,93 @@ Substituting this back into $H_{Analog,BPF}(s)$, we get $H_{digital,BSF}$ as
 \	\includegraphics[width = 18cm, trim=0cm 0cm 0cm 0cm, clip]{Filter4DBSF.jpg}
 \end{figure}
 
-\color{cyan}
-\subsection{Review report}
-\color{black}
-\newpage
+
 \color{darkblue}
 \section{Conclusion}
 \color{black}
+We have seen Butterworth Band Pass, Chebyshev Band Stop, FIR Band Pass, FIR Band Stop, Elliptic Band Pass and Elliptic Band Stop filters. We conclude that the FIR filters need the most resources and has Linear / Pseudo-Linear phase response on the other hand Elliptic filters needs the least resources but the phase response is more non-linear than FIR or Butterworth or Chebyshev filters. Between Butterworth and Chebyshev, eventhough they are for different specifications, we can see that Butter-worth needs more resources than chebyshev and it has more linear phase than Chebyshev.
+
+\color{darkblue}
+\section{Review report}
+\color{black}
+\color{darkblue}
+\subsubsection{Detailed corrections and improvements done on the report}
+\color{black}
+\begin{itemize}
+	\item \textbf{Issue: }Typo in Power Z in the frequency response of FIR Bandstop filter pointed out by Shubham Kar.\\
+	\textbf{Status: } resolved
+	\item \textbf{Issue : }Minor typo's pointed out by Rishav Ranjan\\
+	\textbf{Status: } resolved
+	\item \textbf{Issue : }Wrong formula placed in Elliptic Transfer function pointed out by Shubham Kar.\\ 
+	\textbf{Status: } resolved
+	\item \textbf{Issue : }
+	\textbf{Status: } resolved
+	\item \textbf{Issue : }
+	\textbf{Status: } resolved
+	\item \textbf{Issue : }
+	\textbf{Status: } resolved
+	
+\end{itemize}
+
+\color{darkblue}
+\subsubsection{Detailed review for group member's report}
+\color{black}
+Detalied review performed for Shubham Kar's report. Minor typo's were suggested related to Table and Equation labels, powers of Expressions. Some suggestions were made to reorder the theory in Chebyshev filter. All suggestions were taken and all minor corrections are made.
+\begin{itemize}
+	\item All Specifications were correctly chosen except there was a typo in the formula for BL(m) for the Band-Stop filter which was later resolved.
+	\item All the frequency response specifications for all filters are met. We can see this clearly as he marked the critical points on the plots.
+	\item All the mandatory parts were completed along with Part2: Elliptic filter\\
+\end{itemize}
+
+\noindent Detalied review performed for Rishav Ranjan's report. Suggestions were made regarding the format of images and marking of critical points on the Plots. All suggestions were taken and all minor corrections are made.
+\begin{itemize}
+	\item All Specifications were correctly chosen.
+	\item All the frequency response specifications for all filters are met. We can see this clearly as the critical points were marked on the plots.
+	\item All the mandatory parts were completed.\\
+\end{itemize}
+
 
 \color{darkblue}
 \section{Appendix}
 \color{black}
+All the codes, images and references used in this report are stored in a public Github Repository whose link is  \color{darkblue}\href{https://github.com/VamsiGaraga/EE338_Filter_Design_Assignment}{this}. 
 
+\color{darkblue}
+\subsection{Butter-worth Band Pass filter}
+\color{black}
 
+\lstinputlisting{../code/ButterworthFilter.m}
+
+\color{darkblue}
+\subsection{Chebyshev Band Stop filter}
+\color{black}
+
+\lstinputlisting{../code/ChebyshevFilter.m}
+
+\color{darkblue}
+\subsection{Code for Ideal LPF h[n] used for FIR filters}
+\color{black}
+\lstinputlisting{../code/IdealLPF.m}
+
+\color{darkblue}
+\subsection{FIR Band Pass}
+\color{black}
+\lstinputlisting{../code/FIR1Bandpass.m}
+
+\color{darkblue}
+\subsection{FIR Band Stop}
+\color{black}
+\lstinputlisting{../code/FIR2Bandstop.m}
+
+\color{darkblue}
+\subsection{Elliptic Band Pass}
+\color{black}
+\lstinputlisting{../code/EllipticBandPass.m}
+
+\color{darkblue}
+\subsection{Elliptic Band Stop}
+\color{black}
+\lstinputlisting{../code/EllipticBandStop.m}
 
 
 \end{document}

@@ -43,19 +43,23 @@ Wc = 1.07; %Chosen in between Wcmin and Wcmax
 p = zeros([Nmin,1]);
 for k = 1:1:Nmin
     theta = (2 * k + 7)*pi;
-    p(k) = 1.07 * exp(1i*theta/16);
+    p(k) = Wc* exp(1i*theta/16);
     msg = "p" + k + " = " + p(k);
     %disp(msg);
 end
 
-[num,den] = zp2tf([], p, Wc^Nmin); %TF with poles p(1...8) and numerator Wc^Nmin and no zeroes
-                                    %numerator is chosen to make the DC Gain 1
+%TF with poles p(1...8) and numerator Wc^Nmin and no zeroes
+[num,den] = zp2tf([], p, Wc^Nmin); 
+%numerator is chosen to make the DC Gain 1
                                     
 %% Tranforming back to Band-Pass transfer function and then discrete domain
 syms s z;
-analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s);        %analog LPF Transfer Function
-analog_bpf(s) = analog_lpf((s*s + w0*w0)/(B*s));        %bandpass transformation
-discrete_bpf(z) = analog_bpf((z-1)/(z+1));              %bilinear transformation
+%analog LPF Transfer function
+analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s);
+%bandpass transformation to get analog BPF Transfer function
+analog_bpf(s) = analog_lpf((s*s + w0*w0)/(B*s)); 
+%bilinear transformation to get discrete BPF system function 
+discrete_bpf(z) = analog_bpf((z-1)/(z+1));         
 
 %% coefficients of analog low-pass filter
 [nls, dls] = numden(analog_lpf(s));                  
@@ -74,10 +78,10 @@ ds = ds/k;
 ns = ns/k;
 
 %% coeffs of discrete band-pass filter
-[nz, dz] = numden(discrete_bpf(z));                     %numerical simplification to collect coeffs                    
+[nz, dz] = numden(discrete_bpf(z));                                         
 nz = sym2poly(expand(nz));
-dz = sym2poly(expand(dz));                              %coeffs to matrix form
-k = dz(1);                                              %normalisation factor
+dz = sym2poly(expand(dz));                              
+k = dz(1);                                              
 dz = dz/k;
 nz = nz/k;
 
@@ -85,7 +89,7 @@ nz = nz/k;
 fvtool(nz,dz)                                           
 
 %% Magnitude response of the digital Band Pass filter
-[H,f] = freqz(nz,dz,10000, 330);
+[H,f] = freqz(nz,dz,10000, Sampling_Frequency);
 figure(2)
 plot(f,abs(H))
 title("Magnitude plot |H(w)| for Butterworth Band Pass filter")

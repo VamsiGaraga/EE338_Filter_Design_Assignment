@@ -48,12 +48,14 @@ L = floor(N_min/2);
 r = (N_min-(2*L));
 i = (1:L)';
 u = (2*i-1)/N_min;
+
 %% Finding zeroes and poles of the LPF
 zeta = cde(u,k);
 zeroes_lpf = (1j)./(k*zeta);
 v0 = (-1j)*asne(1j/sqrt(D1),k1)/N_min;
 poles_lpf = 1j*cde(u-1j*v0,k);
 pole_0 = 1j*sne(1j*v0,k);
+
 %% Finding the Transfer function
 Constant_coeff = 1;
 for i=1:L
@@ -70,9 +72,12 @@ poles_lpf = [poles_lpf,conj(poles_lpf),pole_0]';
 
 %% Tranforming back to Band-Stop transfer function and then discrete domain
 syms s z;
-analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s);        %analog LPF Transfer Function
-analog_bsf(s) = analog_lpf((B*s)/(s*s + w0*w0));        %bandstop transformation
-discrete_bsf(z) = analog_bsf((z-1)/(z+1));              %bilinear transformation
+%analog LPF Transfer Function
+analog_lpf(s) = poly2sym(num,s)/poly2sym(den,s);        
+%bandstop transformation to Analog Band stop transfer function 
+analog_bsf(s) = analog_lpf((B*s)/(s*s + w0*w0));        
+%bilinear transformation to Discrete Band stop system function
+discrete_bsf(z) = analog_bsf((z-1)/(z+1));              
 
 %% coefficients of analog low-pass filter
 [nls, dls] = numden(analog_lpf(s));                  
@@ -83,18 +88,18 @@ dls = dls/k;
 nls = nls/k;
 
 %% coeffs of analog band stop filter
-[ns, ds] = numden(analog_bsf(s));                   %numerical simplification to collect coeffs
+[ns, ds] = numden(analog_bsf(s));                   
 ns = sym2poly(expand(ns));                          
-ds = sym2poly(expand(ds));                          %collect coeffs into matrix form
+ds = sym2poly(expand(ds));                          
 k = ds(1);    
 ds = ds/k;
 ns = ns/k;
 
 %% coeffs of digital band stop filter
-[nz, dz] = numden(discrete_bsf(z));                     %numerical simplification to collect coeffs                    
+[nz, dz] = numden(discrete_bsf(z));                     
 nz = sym2poly(expand(nz));
-dz = sym2poly(expand(dz));                              %coeffs to matrix form
-k = dz(1);                                              %normalisation factor
+dz = sym2poly(expand(dz));                              
+k = dz(1);                                              
 dz = dz/k;
 nz = nz/k;
 

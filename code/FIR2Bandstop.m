@@ -23,8 +23,8 @@ end
 N_min = ceil((A-8)/(2*2.285*(ft/f_samp)*2*pi));       %empirical formula for N_min
 
 %Window length for Kaiser Window 
-n=(2*N_min + 1) + 14; % By trail and error method, we increase n
-              %least n satisfying all the conditions was 55, i.e. (2*Nmin +1)+14
+n=(2*N_min + 1) + 14; 
+% By trail and error method, we increase n by 2, the least n satisfying all the conditions was 55, i.e. (2*Nmin +1)+14
 
 %Ideal bandstop impulse response of length "n"
 IdealBSF =  IdealLPF(pi,n) -IdealLPF(((fs2+fp2)/f_samp)*pi,n) + IdealLPF(((fs1+fp1)/f_samp)*pi,n);
@@ -32,8 +32,10 @@ IdealBSF =  IdealLPF(pi,n) -IdealLPF(((fs2+fp2)/f_samp)*pi,n) + IdealLPF(((fs1+f
 %Kaiser Window of length "n" with shape paramter alpha calculated above
 kaiser_win = (kaiser(n,alpha))';
 
-FIR_BandStop = IdealBSF .* kaiser_win
-fvtool(FIR_BandStop);         %Magnitude and Phase response in normalized domain
+FIR_BandStop = IdealBSF .* kaiser_win;
+
+%Magnitude and Phase response in normalized domain
+fvtool(FIR_BandStop);         
 
 %Magnitude response in Unnormalised frequencies
 [H,f] = freqz(FIR_BandStop,1,10000, f_samp);

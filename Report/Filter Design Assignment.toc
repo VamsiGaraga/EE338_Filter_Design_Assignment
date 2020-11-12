@@ -1,48 +1,54 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Student Details:}{1}{}%
-\contentsline {section}{\numberline {2}Filter 1: Butterworth Band Pass Filter}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Unnormalized Specifications}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Normalized specifications}{2}{}%
-\contentsline {subsection}{\numberline {2.3}Analog Band-pass Filter Specifications}{2}{}%
-\contentsline {subsection}{\numberline {2.4}Frequency Transformation in to a Low Pass Filter}{3}{}%
-\contentsline {subsection}{\numberline {2.5}Analog Low Pass Filter Specification}{3}{}%
-\contentsline {subsection}{\numberline {2.6}Analog Low Pass Transfer function}{3}{}%
-\contentsline {subsection}{\numberline {2.7}Analog Band Pass Transfer function}{5}{}%
-\contentsline {subsection}{\numberline {2.8}Discrete time Band Pass Transfer function}{6}{}%
-\contentsline {subsection}{\numberline {2.9}FIR Filter Transfer Function using Kaiser window}{8}{}%
-\contentsline {subsection}{\numberline {2.10}Comparison between FIR and IIR realizations}{10}{}%
-\contentsline {subsection}{\numberline {2.11}Review report}{11}{}%
-\contentsline {section}{\numberline {3}Filter 2: Chebyshev Band Stop Filter}{12}{}%
-\contentsline {subsection}{\numberline {3.1}Unnormalized Specifications}{12}{}%
-\contentsline {subsection}{\numberline {3.2}Normalized specifications}{12}{}%
-\contentsline {subsection}{\numberline {3.3}Analog Band-Stop Filter Specifications}{13}{}%
-\contentsline {subsection}{\numberline {3.4}Frequency Transformation in to a Low Pass Filter}{13}{}%
-\contentsline {subsection}{\numberline {3.5}Analog Low Pass Filter Specification}{14}{}%
-\contentsline {subsection}{\numberline {3.6}Analog Low Pass Transfer function}{14}{}%
-\contentsline {subsection}{\numberline {3.7}Analog Band Stop Transfer function}{16}{}%
-\contentsline {subsection}{\numberline {3.8}Discrete time Band Stop Transfer function}{16}{}%
-\contentsline {subsection}{\numberline {3.9}FIR Filter Transfer Function using Kaiser window}{18}{}%
-\contentsline {subsection}{\numberline {3.10}Comparison between FIR and IIR realizations}{20}{}%
-\contentsline {subsection}{\numberline {3.11}Review report}{21}{}%
-\contentsline {section}{\numberline {4}Filter 1: Elliptic Band Pass Filter}{22}{}%
-\contentsline {subsection}{\numberline {4.1}Unnormalized Specifications}{22}{}%
-\contentsline {subsection}{\numberline {4.2}Normalized specifications}{22}{}%
-\contentsline {subsection}{\numberline {4.3}Analog Band-pass Filter Specifications}{23}{}%
-\contentsline {subsection}{\numberline {4.4}Frequency Transformation in to a Low Pass Filter}{23}{}%
-\contentsline {subsection}{\numberline {4.5}Analog Low Pass Filter Specifications}{24}{}%
-\contentsline {subsection}{\numberline {4.6}Analog Low Pass Filter Transfer function}{24}{}%
-\contentsline {subsection}{\numberline {4.7}Analog Band Pass Transfer function}{26}{}%
-\contentsline {subsection}{\numberline {4.8}Discrete time Band Pass Transfer function}{27}{}%
-\contentsline {subsection}{\numberline {4.9}Review report}{29}{}%
-\contentsline {section}{\numberline {5}Filter 2: Elliptic Band Stop Filter}{30}{}%
-\contentsline {subsection}{\numberline {5.1}Unnormalized Specifications}{30}{}%
-\contentsline {subsection}{\numberline {5.2}Normalized specifications}{30}{}%
-\contentsline {subsection}{\numberline {5.3}Analog Band-stop Filter Specifications}{31}{}%
-\contentsline {subsection}{\numberline {5.4}Frequency Transformation in to a Low Pass Filter}{31}{}%
-\contentsline {subsection}{\numberline {5.5}Analog Low Pass Filter Specification}{32}{}%
-\contentsline {subsection}{\numberline {5.6}Analog Low Pass Filter Transfer function}{32}{}%
-\contentsline {subsection}{\numberline {5.7}Analog Band Stop Transfer function}{34}{}%
-\contentsline {subsection}{\numberline {5.8}Discrete time Band Stop Transfer function}{35}{}%
-\contentsline {subsection}{\numberline {5.9}Review report}{36}{}%
-\contentsline {section}{\numberline {6}Conclusion}{37}{}%
-\contentsline {section}{\numberline {7}Appendix}{37}{}%
+\contentsline {section}{\numberline {1}Student Details:}{1}{section.1}%
+\contentsline {section}{\numberline {2}Filter 1: Butterworth Band Pass Filter}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Unnormalized Specifications}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Normalized specifications}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Analog Band-pass Filter Specifications}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Frequency Transformation in to a Low Pass Filter}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Analog Low Pass Filter Specification}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Analog Low Pass Transfer function}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Analog Band Pass Transfer function}{5}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Discrete time Band Pass Transfer function}{6}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}FIR Filter Transfer Function using Kaiser window}{8}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Comparison between FIR and IIR realizations}{10}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Filter 2: Chebyshev Band Stop Filter}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Unnormalized Specifications}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Normalized specifications}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Analog Band-Stop Filter Specifications}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Frequency Transformation in to a Low Pass Filter}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Analog Low Pass Filter Specification}{13}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Analog Low Pass Transfer function}{13}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Analog Band Stop Transfer function}{15}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Discrete time Band Stop Transfer function}{15}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}FIR Filter Transfer Function using Kaiser window}{17}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Comparison between FIR and IIR realizations}{19}{subsection.3.10}%
+\contentsline {section}{\numberline {4}Filter 1: Elliptic Band Pass Filter}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Unnormalized Specifications}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Normalized specifications}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Analog Band-pass Filter Specifications}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Frequency Transformation in to a Low Pass Filter}{21}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Analog Low Pass Filter Specifications}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Analog Low Pass Filter Transfer function}{22}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Analog Band Pass Transfer function}{24}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Discrete time Band Pass Transfer function}{25}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Filter 2: Elliptic Band Stop Filter}{27}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Unnormalized Specifications}{27}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Normalized specifications}{28}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analog Band-stop Filter Specifications}{28}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Frequency Transformation in to a Low Pass Filter}{29}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Analog Low Pass Filter Specification}{29}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Analog Low Pass Filter Transfer function}{29}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Analog Band Stop Transfer function}{32}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Discrete time Band Stop Transfer function}{33}{subsection.5.8}%
+\contentsline {section}{\numberline {6}Conclusion}{34}{section.6}%
+\contentsline {section}{\numberline {7}Review report}{34}{section.7}%
+\contentsline {subsubsection}{\numberline {7.0.1}Detailed corrections and improvements done on the report}{34}{subsubsection.7.0.1}%
+\contentsline {subsubsection}{\numberline {7.0.2}Detailed review for group member's report}{35}{subsubsection.7.0.2}%
+\contentsline {section}{\numberline {8}Appendix}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Butter-worth Band Pass filter}{35}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Chebyshev Band Stop filter}{38}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Code for Ideal LPF h[n] used for FIR filters}{40}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}FIR Band Pass}{40}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}FIR Band Stop}{42}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Elliptic Band Pass}{43}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Elliptic Band Stop}{46}{subsection.8.7}%
